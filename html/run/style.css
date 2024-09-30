@@ -1,0 +1,100 @@
+/*Style home*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.header{
+
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url(bg1.jpg) ;
+	background-position: center;
+	background-size: cover;
+	position: fixed;
+
+
+}
+
+.text-box{
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+    
+}
+.text-box h1{
+	font-size: 100px;
+}
+
+.text-box p{
+	margin: 10px 0 40px;
+	font-size: 14px;
+	color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+	margin-top: -10px;
+}
+
+
+.hero-btn{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 12px 34px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+	border-radius: 6px;
+}
+
+.hero-btn:hover{
+	border: 1px solid rgb(255, 3, 3);
+	background: rgb(250, 4, 4);
+	transition: 0.5s;
+}
+
+
+
+.floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-right: 190px;
+    margin-top: 5px;
+	margin-bottom: -200px;
+    background-image: url(covid.png);
+    background-repeat: no-repeat;
+	float: right;
+    
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
+
+
+
+
+/*clearwoeeee*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    zoom: 1;
+}
