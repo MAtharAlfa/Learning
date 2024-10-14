@@ -42,12 +42,12 @@
 
 // document.write(`maka luas segitiga adalah ${luasSegitiga}`);
 
-var ruang = 1,
-  totalRuang = 7;
+// var ruang = 1,
+//   totalRuang = 7;
 
-while (ruang <= 5) {
-  document.write(`ruang di kelas ${ruang} berfungsi dengan baik`);
-}
+// while (ruang <= 5) {
+//   document.write(`ruang di kelas ${ruang} berfungsi dengan baik`);
+// }
 
 // for (let i = 0; i < 22; i += 2) {
 //   text = `${i * 2} `;
